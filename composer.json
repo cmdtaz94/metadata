@@ -1,7 +1,7 @@
 {
     "name": "cmdtaz/metadata",
     "description": "Will help you to manage your metadata instead of create one table for each datasets",
-    "license": "open-source",
+    "license": "proprietary",
     "version": "1.0.0",
     "authors": [
         {
