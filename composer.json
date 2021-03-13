@@ -1,0 +1,26 @@
+{
+    "name": "cmdtaz/metadata",
+    "description": "Will help you to manage your metadata instead of create one table for each datasets",
+    "license": "open-source",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Nelson AZONHOU",
+            "email": "cmdtazonhou@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cmdtaz\\Metadata\\": "src/",
+            "Cmdtaz\\Metadata\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cmdtaz\\Metadata\\Providers\\MetadataServiceProvider"
+            ]
+        }
+    }
+}
