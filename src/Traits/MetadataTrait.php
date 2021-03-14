@@ -78,6 +78,11 @@ trait MetadataTrait
         return $metadata;
     }
 
+    /**
+     * @param Metadata $metadata
+     * @param $dataId
+     * @return bool|Metadata
+     */
     protected function destroyMetadataData(Metadata $metadata, $dataId)
     {
         $updatedData = $this->findData($metadata->name, $dataId);
