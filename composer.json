@@ -2,7 +2,6 @@
     "name": "cmdtaz/metadata",
     "description": "Will help you to manage your metadata instead of create one table for each datasets",
     "license": "MIT",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Nelson AZONHOU",
