@@ -45,7 +45,6 @@ class MetadataServiceProvider extends ServiceProvider
      */
     protected function registerResources()
     {
-        $this->registerMigrations();
         $this->registerViews();
         $this->registerTranslations();
         $this->registerMiddlewares();
